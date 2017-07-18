@@ -9,6 +9,9 @@ from datetime import datetime
 now = datetime.now() #获取当前的时间
 print ("当前时间为：%s" % now)
 
+# 获取某个指定日期
+dt = datetime(2018, 7, 15, 12, 23)
+print(dt)
 
 
 '''
