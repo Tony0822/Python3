@@ -1,6 +1,17 @@
 # !/usr/bin/env python3
 # ---coding:UTF-8---
 
+print ('hello world')
+
+# 模块
+# datetime
+from datetime import datetime 
+now = datetime.now() #获取当前的时间
+print ("当前时间为：%s" % now)
+
+
+
+'''
 # 导入sqlite3驱动
 import sqlite3
 
@@ -26,3 +37,4 @@ cursor.close()
 cursor.commit()
 # 关闭connection
 conn.close()
+'''
